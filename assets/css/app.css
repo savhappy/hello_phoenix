@@ -1,0 +1,61 @@
+/* This file is for your main application CSS */
+@import "./phoenix.css";
+
+* {
+  margin:0;
+}
+
+.section-btn {
+  width: 100%;
+  display:flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+}
+
+.red-btn {
+  background-color: red;
+  border-radius: 5px;
+  border:none;
+  color:white;
+  padding: 20px 55px;
+  
+}
+
+.blue-btn {
+  background-color: blue;
+  border-radius: 5px;
+  border:none;
+  color:white;
+
+  padding: 20px 55px;
+  
+}
+
+/*red page */
+
+#ctn-red {
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: red;
+  display:flex;
+  width: 100vw;
+  align-content: center;
+  align-items: center;
+  color:white;
+}
+
+
+.ctn-blue {
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  display:flex;
+  align-content: center;
+  align-items: center;
+  color:white;
+  background-color: blue;
+}
+
+
