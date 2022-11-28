@@ -23,6 +23,12 @@ defmodule HelloPhoenixWeb.Router do
 
   end
 
+  scope "/api", HelloPhoenixWeb do
+    pipe_through :api
+
+    get "/quote", QuoteController, :index
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", HelloPhoenixWeb do
   #   pipe_through :api

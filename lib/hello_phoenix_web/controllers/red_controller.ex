@@ -1,7 +1,9 @@
 defmodule HelloPhoenixWeb.RedController do
   use HelloPhoenixWeb, :controller
+  alias HelloPhoenix.Helpers
 
   def index(conn, _params) do
-    render(conn, "red.html")
+    quote = Helpers.get_quote()
+    render(conn, "red.html", quote: quote)
   end
 end
