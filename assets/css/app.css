@@ -7,9 +7,10 @@
   box-sizing: border-box;
 }
 body {
-  display:grid;
+  display:flex;
   height:100vh;
   margin:0;
+  justify-content: center;
   background-color: #000;
   place-items: center;
   overflow:hidden;
